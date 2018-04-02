@@ -10,7 +10,7 @@ a:active {color: #FFFF00;}
 .title {font-size: 16px; font-weight: bold; margin: 20px 0 10px 0;}
 .disabled {color: gray;}
 h1 { margin:0; padding:5px 0; width:400px; color:#f36d6e; font:normal 46px/1.2em Arial, Helvetica, sans-serif; letter-spacing:-2px;}
-a.headlink a:link { color: #ffffff; text-decoration:none;}
+.headlink:link { color: #ffffff; text-decoration:none;}
 a.headlink a:visited { color: #ffffff; text-decoration:none;}
 a.headlink a:hover { color:#f36d6e; text-decoration:none;}
 a.headlink a:active { color:#f36d6e; text-decoration:none;}
