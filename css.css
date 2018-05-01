@@ -28,8 +28,21 @@ body {background-color: #D6D6D6; padding: 0; margin: 0; font-family: "Arial", "H
 #menu a:hover {color: #FFFF00; background-color: #072FCF;}
 #menu a:active {color: #FFFF00; background-color: #072FCF;}
 #menu .line {margin-top: 3px 0; padding: 0; height: 1px; line-height: 0; border: 0; border-bottom: 1px dashed #CCCCCC; color: #CCCCCC; width: 199px;}
-#content .oline {margin-top: 3px 0; padding: 0; height: 1px; line-height: 0; border: 0; border-bottom: 1px dashed #CCCCCC; color: #CCCCCC; width: 199px;}
 #content {float: left; width:710px; padding-left: 50px; height: auto;}
 #content p {line-height: 22px; text-align: justify;}
 #content li {line-height: 22px;}
+#content .oline {
+    border-bottom: 1px solid #d2d0d0;
+    padding-bottom: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: block;
+
+}
+#content .highlight2{
+     background: #84ef84;
+    font-size: 1.2em;
+    font-weight: 200;
+    /*color: red;*/
+}
 #footer {width: 1000px; margin: 10px 0 10px 0; padding: 10px 0 10px 0; border-top: 1px dashed gray;}
